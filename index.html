@@ -1,0 +1,76 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Calculator - Assignment</title>
+  <meta name="description" content="Calculator - Assignment">
+  <meta name="author" content="Maryam Zafar">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Boostrap -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet">
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>
+<script src="js/script.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+
+
+<div class="calculator-wrapper">
+  <div class="container text-center calculator-background" id="calc">
+
+      <div class="row justify-content-center">
+        <h4>A Simple Calculator</h4>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-12">
+          <input type="text" class="screen text-right" id="result" name="result" readonly>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-3 offset-3"><button id="allClear" type="button" class="btn btn-secondary">AC</button></div>
+        <div class="col-3"><button id="clear" type="button" class="btn btn-secondary">CE</button></div>
+        <div class="col-3"><button id="/" type="button" class="btn btn-numerals" onclick="">/</button></div>      
+        
+      </div>
+       <div class="row justify-content-center">
+        <div class="col-3"><button id="7" type="button" class="btn btn-numerals" onclick="">7</button></div>
+        <div class="col-3"><button id="8" type="button" class="btn btn-numerals" onclick="">8</button></div>
+        <div class="col-3"><button id="9" type="button" class="btn btn-numerals" onclick="">9</button></div>
+        <div class="col-3"><button id="*" type="button" class="btn btn-numerals" onclick="">*</button></div>      
+        
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-3"><button id="4" type="button" class="btn btn-numerals" onclick="">4</button></div>
+        <div class="col-3"><button id="5" type="button" class="btn btn-numerals" onclick="">5</button></div>
+        <div class="col-3"><button id="6" type="button" class="btn btn-numerals" onclick="">6</button></div>
+        <div class="col-3"><button id="-" type="button" class="btn btn-numerals" onclick="">-</button></div>      
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-3"><button id="1" type="button" class="btn btn-numerals" onclick="">1</button></div>
+        <div class="col-3"><button id="2" type="button" class="btn btn-numerals" onclick="">2</button></div>
+        <div class="col-3"><button id="3" type="button" class="btn btn-numerals" onclick="">3</button></div>
+        <div class="col-3"><button id="+" type="button" class="btn btn-numerals" onclick="">+</button></div>      
+      </div>
+
+     <div class="row justify-content-center">
+        <div class="col-3"><button id="0" type="button" class="btn btn-numerals" onclick="">0</button></div>
+        <div class="col-3"><button id="." type="button" class="btn btn-numerals" onclick="">.</button></div>
+        <div class="col-3 offset-3"><button id="equals" type="button" class="btn btn-equals">=</button></div> 
+      </div>
+
+  </div>
+
+</div>
+
+
+
+</body>
+</html>
